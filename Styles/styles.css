@@ -3,6 +3,10 @@ body {
     background-color: #F5F7FA;
 }
 
+p {
+    margin: 0;
+}
+
 /* main styls */
 .Main {
     display: flex;
@@ -16,7 +20,7 @@ body {
 .Maine-content {
     background-color: #FFFFFF;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-    padding: 105px 90px;
+    padding: 90px 90px;
 }
 
 /* about styles */
@@ -154,6 +158,12 @@ color: #000000;
 .Education {
     margin-bottom: 10px;
 }
+
+.education-list {
+list-style: none;
+padding-left: 0;
+
+}
 .institution {
     font-style: normal;
     font-weight: 700;
@@ -163,12 +173,13 @@ color: #000000;
     margin-bottom: 10px;
 }
 .spacialty {
+    
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
     color: #000000;
-    margin-bottom: 10;
+    margin-bottom: 5px;
 }
 /* Sidebar styles */
 .Sidebar {
